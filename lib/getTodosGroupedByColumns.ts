@@ -45,10 +45,8 @@ export const getTodosGroupedByColumns = async () => {
     )
 
     const board: Board = {
-        columns: sortedColumns,
+        columns: sortedColumns
     }
-
-    console.log(columns)
 
     return board
 }
